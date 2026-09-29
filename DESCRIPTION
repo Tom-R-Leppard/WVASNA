@@ -1,19 +1,18 @@
-Package: ADAPTSNA
+Package: WVASNA
 Type: Package
-Title: What the Package Does (Title Case)
+Title: WVASNA
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Tom R.", "Leppard",
+      email = "tleppard@fau.edu",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: This is a companion package to the book Wrangling, Visualising, and Analysing Social Network Data. This package enables readers to load the data used in that book. This project would not have been possible without funding from the National Science Foundation. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.2
-URL: https://github.com/Tom-R-Leppard/ADAPTSNA
-BugReports: https://github.com/Tom-R-Leppard/ADAPTSNA/issues
+URL: https://github.com/Tom-R-Leppard/WVASNA
+BugReports: https://github.com/Tom-R-Leppard/WVASNA/issues
+Config/roxygen2/version: 8.1.0

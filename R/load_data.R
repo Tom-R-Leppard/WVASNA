@@ -5,7 +5,7 @@
 #' @return A data frame
 #' @export
 load_data <- function(filename, ...) {
-  filepath <- system.file("extdata", filename, package = "ADAPTSNA")
+  filepath <- system.file("extdata", filename, package = "WVASNA")
   if (filepath == "") stop("File not found: ", filename)
   read.csv(filepath, ...)
 }
@@ -14,5 +14,5 @@ load_data <- function(filename, ...) {
 #' List available CSV files in the package
 #' @export
 list_data_files <- function() {
-  list.files(system.file("extdata", package = "ADAPTSNA"))
+  list.files(system.file("extdata", package = "WVASNA"))
 }
